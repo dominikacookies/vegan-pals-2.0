@@ -1,71 +1,65 @@
 {{>public-nav}}
 <main>
-  <h1 class="text-center">Hey Pal,</h1>
-  <h2 class="text-center">Welcome to Vegan Pals!</h2>
-
-  <div class="d-flex flex-row justify-content-evenly">
-    <div class="mt-5">
-      {{>public-searchbar}}
-      <section class="how-it-works">
-        <h2 class="text-center">How It Works</h2>
-        <div class="d-flex flex-wrap justify-content-around pb-10"> 
-          <div class="card text-center p-2 m-3 card-elements" style="width: 16rem">
-            <div class="card-body mx-auto">
-              <div>
-                <i class="
-                fas
-                fa-2x fa-search
-              "></i>
-              </div>
-              <h4 class="card-title mb-2 text-center">1. Find a recipe</h4>
-              <h6 class="card-text text-center">
-                Find exciting new recipes that accommodate your intolerances.
-              </h6>
-            </div>
-          </div>
-
-          <div class="card text-center p-2 m-2 card-elements" style="width: 16rem">
-            <div class="card-body mx-auto">
-              <div>
-                <i class="
-                far
-                fa-2x fa-save
-              "></i>
-              </div>
-              <h4 class="card-title mb-2 text-center">2. Save it for later</h4>
-              <h6 class="card-text text-center">
-                Save your favourite recipes and revisit them whenever you like.
-              </h6>
-            </div>
-          </div>
-
-          <div class="card text-center p-2 m-3 card-elements" style="width: 16rem">
-            <div class="card-body mx-auto">
-              <div>
-                <i class="
-                fas
-                fa-2x fa-users
-              "></i>
-              </div>
-              <h4 class="card-title mb-2 text-center">3. Cook with a pal!</h4>
-              <h6 class="card-text text-center">
-                Find new awesome pals to cook you favourite recipes with!
-              </h6>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="other-pals-love">
-        <h2 class="text-center">Other pals love...</h2>
-        <h4 class="text-center">Take a look at some of the recipes other pals have saved</h4>
-        <div class="d-flex flex-wrap justify-content-around pb-20"> 
-          {{#each latestSavedRecipes}}
-            {{> recipe-card}}
-          {{/each }}
-        </div>
-      </section>
+  <section>
+    <div class="row p-10 home-banner-section">
+      <div class="col-xs-12 col-lg-5">
+        <img class="home-image" src="https://images.unsplash.com/photo-1556911073-52527ac43761?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"/>
+      </div>
+      <div class="col-xs-12 col-lg-7 pt-10">
+          <h1 class="text-center">Hey there!</h1>
+          <h2 class="text-center">Welcome to Vegan Pals.</h2>
+          {{>public-searchbar}}
+      </div>
     </div>
-  </div>
+  </section>
+  <section class="pt-20">
+    <h2 class="text-center">How It Works</h2>
+    <div class="d-flex flex-wrap justify-content-around pb-10 "> 
+      <div class="card text-center p-2 m-3 card-elements card-inverted" style="width: 16rem">
+        <div class="card-body mx-auto">
+          <div>
+            <i class="fas fa-2x fa-search"></i>
+          </div>
+          <h4 class="card-title mb-2 text-center">1. Find a recipe</h4>
+          <h6 class="card-text text-center">
+            Find exciting new recipes that accommodate your intolerances.
+          </h6>
+        </div>
+      </div>
+
+      <div class="card text-center p-2 m-2 card-elements card-inverted" style="width: 16rem">
+        <div class="card-body mx-auto">
+          <div>
+             <i class=" far fa-2x fa-save"></i>
+          </div>
+          <h4 class="card-title mb-2 text-center">2. Save it for later</h4>
+          <h6 class="card-text text-center">
+             Save your favourite recipes and revisit them whenever you like.
+          </h6>
+        </div>
+      </div>
+
+      <div class="card text-center p-2 m-3 card-elements card-inverted" style="width: 16rem">
+        <div class="card-body mx-auto">
+          <div>
+            <i class="fas fa-2x fa-users"></i>
+          </div>
+          <h4 class="card-title mb-2 text-center">3. Cook with a pal!</h4>
+          <h6 class="card-text text-center">
+            Find new awesome pals to cook you favourite recipes with!
+          </h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="other-pals-love">
+     <h2 class="text-center">Other pals love...</h2>
+     <h4 class="text-center">Take a look at some of the recipes other pals have saved</h4>
+     <div class="d-flex flex-wrap justify-content-around pb-20"> 
+      {{#each latestSavedRecipes}}
+        {{> recipe-card}}
+      {{/each }}
+     </div>
+  </section>
 </main>
-{{>footer}}

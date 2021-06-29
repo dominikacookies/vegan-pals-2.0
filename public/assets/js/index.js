@@ -163,7 +163,7 @@ const provideCooktogetherContactDetails = async (event) => {
   parentContainer.append(`
     <p class="small-text-bolded"> Insta, Whatsapp or pigeon mail? </p>
     <input id="contact-info" placeholder="Contact details">
-    <button class="accept-request-button main-button-style"> Accept </button>
+    <button class="accept-request-button primary-button"> Accept </button>
   `);
 
   $(".accept-request-button").on("click", acceptCooktogether);
