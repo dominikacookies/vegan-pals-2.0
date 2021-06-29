@@ -1,3 +1,90 @@
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.home-image {
+  max-width: 100%;
+}
+
+.heading {
+  color: #c78a07
+}
+
+.primary-button {
+  background-color: #c78a07;
+  color: white;
+  font-weight: bold;
+  /* padding: 8px; */
+}
+
+.primary-button:hover {
+  color: white;
+  padding: 6px;
+}
+
+.secondary-button {
+  background-color: #f5f1e7;
+  color: #e2a41d;
+  border-width: 1px;
+  border-color: #e2a41d;
+  padding: 8px;
+}
+
+.secondary-button:hover {
+  color: #e2a41d;
+  padding: 6px;
+}
+
+.card-basic {
+  background-color: #f5f1e7;
+  border-radius: 5%;
+  border-width: 1px;
+  border-color: #e2a41d;
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.card-basic:hover {
+  color: rgb(36, 36, 36);
+}
+
+.card-inverted {
+  background-color: #e2a41d;
+  border-radius: 5%;
+  color: white
+
+}
+
+#recipe-top-section-container {
+  width: 60vw;
+  margin: auto;
+}
+
+/* login page */
+
+.login-form-container {
+  width: 60vw;
+  padding: 5rem 1rem 3rem 1rem;
+}
+
+/* sign-up page */
+
+.sign-up-form-container {
+  padding: 3rem;
+  width: 50vw;
+  margin: auto;
+}
+/* 
+.welcome-msg-container {
+  position: relative
+}
+
+.welcome-msg-holder {
+  position: absolute;
+  top: 15%
+} */
+
 /* colour pallete HEX codes
 dark green - #304922
 lighter green - #8EB44F
@@ -20,19 +107,9 @@ main {
 
 /* styles for elements on multiple pages */
 .main-header-style {
-  color: #304922;
+  color: #daaf53;
   margin: 3rem 0rem 2rem 0rem;
   text-align: center;
-}
-.main-button-style {
-  background-color: #304922;
-  color: #f6efdd;
-  max-height: 40px;
-}
-.main-button-style:hover {
-  background-color: #8eb44f;
-  color: #304922;
-  padding: 7px;
 }
 
 /* partials style */
@@ -40,7 +117,6 @@ main {
 .search-bar {
   border-radius: 4rem;
   padding: 2rem;
-  background-color: #daaf53;
   margin: auto;
   margin-bottom: 3rem;
   max-width: 65vw;
@@ -57,7 +133,7 @@ main {
 .search-button {
   position: absolute;
   width: 4rem;
-  background-color: #304922;
+  background-color: #e2a41d;
   color: #f6efdd;
   z-index: 3;
 }
@@ -65,15 +141,7 @@ main {
 .navbar {
   text-indent: 1rem;
   height: 5rem;
-  background-color: #304922;
-}
-
-.footer {
-  background-color: #304922;
-  color: white;
-  height: 4rem;
-  padding-top: 1rem;
-  margin-top: 8rem;
+  background-color: #e2a41d;
 }
 
 /*  recipe card partial */
@@ -194,10 +262,6 @@ main {
 
 /* public homepage styles */
 
-.how-it-works {
-  margin: 2rem;
-  padding: 2rem;
-}
 .guide-card {
   background-color: #f6efdd;
   border: 0.3rem solid #daaf53;
@@ -205,32 +269,6 @@ main {
 .other-pals-love {
   margin: auto;
   width: 80vw;
-}
-
-/* login page */
-.login-page {
-  padding: 5rem;
-}
-
-.login-form-container {
-  background-color: #daaf53;
-  width: 60vw;
-  padding: 5rem 1rem 3rem 1rem;
-  border-radius: 35px;
-}
-
-/* sign-up page */
-
-.sign-up-page {
-  padding-bottom: 5rem;
-}
-
-.sign-up-form-container {
-  background-color: #daaf53;
-  padding: 3rem;
-  border-radius: 35px;
-  width: 50vw;
-  margin: auto;
 }
 
 /* cooktogether page */
@@ -317,9 +355,6 @@ main {
   .my-recipe-title,
   .recipe-title {
     display: none;
-  }
-  .main-button-style {
-    font-size: 9px;
   }
   .view-button {
     display: none;
