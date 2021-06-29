@@ -55,9 +55,11 @@
       <section class="your-yummy-recipes">
         <h2 class="main-header-style">Your yummy recipes</h2>
          {{#if latestSavedRecipes}}
-         <div class="card-group"> {{#each latestSavedRecipes}}
+          <div class="d-flex flex-wrap justify-content-around pb-20"> 
+           {{#each latestSavedRecipes}}
               {{> recipe-card}}
-            {{/each }}</div>
+            {{/each }}
+          </div>
            
           {{else}}
             <div class="text-center">

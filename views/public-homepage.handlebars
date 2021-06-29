@@ -64,15 +64,11 @@
       </section>
       <section class="other-pals-love">
         <h2 class="main-header-style">Other pals love</h2>
-        <section class="card-group">
-
+        <div class="d-flex flex-wrap justify-content-around pb-20"> 
           {{#each latestSavedRecipes}}
-          {{> recipe-card}}
+            {{> recipe-card}}
           {{/each }}
-
-
-        </section>
-
+        </div>
       </section>
     </div>
   </div>
