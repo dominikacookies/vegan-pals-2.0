@@ -1,12 +1,13 @@
 {{>public-nav}}
 <main>
-  <h1 class="main-header-style">Hey, Pal!</h1>
+  <h1 class="text-center">Hey Pal,</h1>
+  <h2 class="text-center">Welcome to Vegan Pals!</h2>
 
   <div class="d-flex flex-row justify-content-evenly">
     <div class="mt-5">
       {{>public-searchbar}}
       <section class="how-it-works">
-        <h2 class="main-header-style">How It Works</h2>
+        <h2 class="text-center">How It Works</h2>
         <div class="d-flex flex-wrap justify-content-around pb-10"> 
           <div class="card text-center p-2 m-3 card-elements" style="width: 16rem">
             <div class="card-body mx-auto">
@@ -56,7 +57,8 @@
       </section>
 
       <section class="other-pals-love">
-        <h2 class="main-header-style">Other pals love</h2>
+        <h2 class="text-center">Other pals love...</h2>
+        <h4 class="text-center">Take a look at some of the recipes other pals have saved</h4>
         <div class="d-flex flex-wrap justify-content-around pb-20"> 
           {{#each latestSavedRecipes}}
             {{> recipe-card}}
