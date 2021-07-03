@@ -75,12 +75,3 @@ We have used one API for this project
 
 As a future plan we have decided to develop a Live Chat Box with emojis in order for the vegan pals to have a more easy way to communicate with each other. And also a save recipe button so that when you click on it will render users who also liked this recipe.
 
-## Screenshots
-
-![screenshot6](public/assets/screenshots/loginPage.png)
-![screenshot7](public/assets/screenshots/signupPage.png)
-![screenshot8](public/assets/screenshots/photo1.png)
-![screenshot9](public/assets/screenshots/photo2.png)
-![screenshot10](public/assets/screenshots/photo3.png)
-![screenshot11](public/assets/screenshots/photo5.png)
-![screenshot12](public/assets/screenshots/photo6.png)
