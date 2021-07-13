@@ -1,5 +1,9 @@
 <h1>Vegan Pals</h1>
 
+## Project Link
+
+Click [here](https://vegan-pals-2.herokuapp.com/) to view the project on Heroku.
+
 <h2> Table of Contents </h2>
 
 - [Project Link](#project-link)
@@ -12,10 +16,6 @@
   - [Wireframes](#wireframes)
 - [Plans for Improvement](#plans-for-improvement)
 - [Screenshots](#screenshots)
-
-## Project Link
-
-Click [here](https://stormy-stream-13655.herokuapp.com/) to view the project on Heroku.
 
 ## Getting Started
 
